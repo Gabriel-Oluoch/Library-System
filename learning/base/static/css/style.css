@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.room-list {
+    background-color: #E6E6FA;
+    color: red;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.room-item {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.room-item:last-child {
+    border-bottom: none; /* Remove last item's border */
+}
+
+.room-item:hover {
+    background-color: #ADD8E6;
+    transition: background-color 0.3s;
+}

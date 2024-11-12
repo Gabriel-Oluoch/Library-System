@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Melvins Simon" />
+    <meta name="description" content="A basic Sign In Form" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <title>AP Form Assignment</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="container">
+          <div>Logo</div>
+          <div>Nav Links</div>
+        </div>
+      </nav>
+      <div class="fCont">
+        <form action="">
+          <div class="fTitle"><span>Enter your Details to Continue</span></div>
+          <div class="innerC">
+            <div class="cons">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                required
+                id="username"
+              />
+            </div>
+            <div class="cons">
+              <label for="email">email</label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                required
+                id="email"
+              />
+            </div>
+            <div class="country">
+              <label for="countries">Select your Country</label>
+              <select name="countries" id="countries" size="5"></select>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
